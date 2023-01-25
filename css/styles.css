@@ -44,7 +44,6 @@ img{
 
 .header{
     display: flex;
-    align-items: center;
     border-bottom: 1px solid #E7E9FC;
 }
 
@@ -92,8 +91,10 @@ img{
     padding-bottom: 24px;
 }
 
-.main-nav .item + .item{
-    margin-left: 40px;
+.item{
+    display: flex;
+    gap: 40px;
+    margin-right: 332px;
 }
 
 .main-nav-site:hover, .main-nav-site:focus{
@@ -101,11 +102,14 @@ img{
     cursor: pointer;
 }
 
+
 .contact{
- margin-left: auto;
+    display: flex;
+    gap:40px;
 }
 
 .main-nav-cnt{
+    display: block;
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -145,8 +149,8 @@ img{
 
 /*=============PORTFOLIO SITE==============*/
 .portfolio{
-    margin-top: 96px;
-    margin-bottom: 72px;
+    padding-top: 96px;
+    padding-bottom: 72px;
 }
 .hide{
     margin-top: 0;
@@ -321,6 +325,10 @@ img{
 /*-------------/SECTION 1-----------*/
 
 /*-------------SECTION 2-----------*/
+.section-doing{
+    padding-top: 0;
+}
+
 .header-two{
     font-weight: 700;
     font-size: 36px;
@@ -338,7 +346,6 @@ img{
     display: flex;
     margin-top: 72px;
     gap: 24px;
-    margin-bottom: 120px;
 }
 /*-------------/SECTION 2-----------*/
 
